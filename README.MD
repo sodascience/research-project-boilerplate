@@ -1,6 +1,10 @@
 # SoDa Research Project Boilerplate
 
 ## General Information
+> Supported languages: Python and R
+
+> [!WARNING]
+> This template is NOT suitable for R package development. R packages are bundles of collections of R functions designed to be shared across projects and potentially published on CRAN. Read more about R package development in this [book](https://r-pkgs.org/). An accessible guide to developing R packages is available [here](https://www.paulamoraga.com/blog/2022-04-12-rpackages.html).
 
 This repository contains the template of a typical research project within the SoDa organisation. It can be used as a starting point for a new research project.
 
@@ -9,39 +13,33 @@ This repository contains the template of a typical research project within the S
 To use this template for your new project, follow these steps in order:
 
 #### Step 1 - Create your own repository from this template
-Click the green button at the top of the page labelled "Use this template" and choose "Create a new repository".
+Click the green button at the top of the page labelled as "Use this template" and choose "Create a new repository".
+![Step 1 image](https://raw.githubusercontent.com/sodascience/Github_Manifest/main/img/repo-from-template-step1.png)
 
-#### Step 2 - Set the owner
-Choose the Owner as "sodascience"
-
-#### Step 3 - Choose the name of your project
-
-Choose the Repository name (the name of your project)
-
-#### Step 4 - Adjust the visibility of your repository
-
-Adjust the visibility of your repository (public or private).
+#### Step 2 - Configure your new repository
+- Keep 'Include all branches' switched off
+- Choose "Owner" as "sodascience"
+- Choose a name for your new repository
+- Add a brief description, it will be displayed in a "About" side-section of your repository.
+- Adjust the visibility of your repository (public or private).
  
-> Private repositories are visible/accessible only for the owner and other manually assigned contributors. **Note:** visibility only controls who can *see* the code — it does not change our no-data-in-git policy. Even in a private repo, raw or sensitive data should never be committed to git (see the `data/` folder note below).
+> Private repositories are visible/accessible only for the owner and other manually assigned contributors. **Note:** visibility only controls who can *see* the content of the repository — it does not change our no-sensitive-data-in-git policy, which means that even in a private repo, sensitive data should never be committed to git.
 
-#### Step 5 - Clean up placeholder files
+![Step 2 image](https://raw.githubusercontent.com/sodascience/Github_Manifest/main/img/repo-from-template-step2.png)
 
-Remove `.gitkeep` files from folders you don't need, or from folders that already contain some git-tracked files.
+#### Step 3 - Clean up placeholder files
+
+Remove pre-configured `.gitkeep` files from folders you don't want to be tracked in git, or from folders to which you added some git-tracked files. The `.gitkeep` files should be there only if some folder you want to be uploaded to github does not contain any tracked files or is empty. Read more about these `gitkeep` files below.
  
 > **What is a `.gitkeep` file?** Git only tracks files, not empty folders — so an empty folder like `data/raw/` would simply disappear when someone else clones the repo. To keep the folder structure visible and intact, we add an empty placeholder file named `.gitkeep` inside it. So, we used `.gitkeep` files to make sure your new project repo has the same folder structure as this template. Once a folder contains real files, the placeholder no longer serves a purpose, so you can safely delete it. If you don't need a folder at all (e.g. `notebooks/` if you won't use notebooks), you can delete the whole folder.
 
-#### Step 6 - Review the included GitHub Actions workflow
+#### Step 4 - Review the included GitHub Actions workflow
 
-The current `.github` folder contains a simple linter job that checks your code for formatting errors, and runs automatically every time you push code or open a pull request. It is recommended to keep it as is; if you want to develop project-specific workflows, refer to GitHub's [official documentation about workflows](https://docs.github.com/en/actions/using-workflows/about-workflows).
+The current `.github` folder contains a simple linter job that checks your code for formatting errors. It runs automatically every time you push changes to your remote repository or open a pull request. It is recommended to keep it as is; if you want to develop project-specific workflows, refer to GitHub's [official documentation about workflows](https://docs.github.com/en/actions/using-workflows/about-workflows).
  
-#### Step 7 — Fill in your README
- 
-When done reading this guide, scroll to the [README template](#readme-template) below and follow the instructions there.
- 
----
- 
-Once you've completed these steps, you're ready to start working on your project.
+#### Step 5 — Fill in your README
 
+Once you've completed these steps, you're ready to start working on your project. Scroll down to the [README template](#readme-template) below and follow the instructions there.
 
 ### Folder Structure
 The structure that we created here is common good practice for research projects, and we recommend sticking to it — whether your project uses Python, R, or both. Nevertheless, feel free to extend/change it to your needs. Here is a short description of the folders and files:
@@ -59,44 +57,95 @@ The structure that we created here is common good practice for research projects
 └── env.example      # Example environment variables
 ```
 
-> **Using R instead of Python?** Keep code in `src/` as shown above — we don't use a separate `R/` folder for non-package projects. An R package project would be developed as a from-scratch repository. Dependency management files (`pyproject.toml`/`uv.lock` for Python, `renv.lock` for R), and an `.Rproj` file if you use RStudio, aren't included in this template — add them as needed once you set up your environment. 
+> **Dependency management files**
+Files like `pyproject.toml`/`uv.lock` for Python, `renv.lock` for R, and an `.Rproj` (generated by RStudio) aren't included in this template — add them as needed once you set up your environment.  
 
-> **What is `env.example`?** Projects sometimes need secrets or machine-specific settings (API keys, database passwords, file paths) that must never be committed to git. The convention is to list these as placeholders in a file called `env.example`, which *is* committed. Each contributor then copies it to a new file named `.env` and fills in their own real values. `.env` is already listed in `.gitignore`, so your personal secrets never get pushed to GitHub.
+> **What is `env.example`?** Projects often need secrets (API keys, passwords, or other sensitive values that must never be published on GitHub, public or private) and machine-specific settings like file paths. The convention is to list these as placeholders in `env.example`, which **IS** committed to the repo. Each contributor then copies it to a new file named `.env` locally and fills in their own real values.
+
+Conveniently, we already set up a `.gitignore` (a file that contains files and directories that should **NOT** be pushed to remote repositories) for you such that the real `.env` file will never be pushed to the remote repository. Therefore you can locally create a `.env` file in the root directory.
+
+> [!IMPORTANT]
+> Do not delete `.gitignore` file. If you delete it, the real `.env` file as well as other files that are supposed to be excluded from GitHub will be pushed.
+
+```
+# Example of .env.example
+
+OPENAI_API_KEY="set_your_openai_api_key_here"
+DB_HOST="set_hostname_here"
+DB_PORT="set_port_here"
+DB_USER="set_db_user_here"
+DB_PASSWORD="set_db_password_here"
+DB_NAME="set_db_name_here"
+```
+
+```
+# Example of .env file
+
+OPENAI_API_KEY="real_api_key"
+DB_HOST="hostname"
+DB_PORT="port"
+DB_USER="db_user"
+DB_PASSWORD="db_password"
+DB_NAME="db_name"
+```
 
 ## README template
 
-> TODO: Please delete everything above this section from the README. Therefore, you will end up with a clean template for your project README file. Make sure to replace all placeholders below (marked as `[PROJECT NAME]`, etc.) with your project-specific information.
+> [!NOTE]
+> Please delete everything above this section from the README. Therefore, you will end up with a clean template for your project README file. Make sure to replace all placeholders below (marked as `[PROJECT NAME]`, etc.) with your project-specific information.
 
 # [PROJECT NAME]
- 
-<!--
-Badges section: 
-- Project Status Badge: pick one status available from the following list that matches the current status of the project and replace the badge below accordingly:
-    - concept      -> no real implementation yet, demo/proof-of-concept only
-    - wip          -> in development, no stable/usable release yet
-    - suspended    -> development paused, but you intend to resume
-    - abandoned    -> stopped for good, no stable release was ever reached
-    - active       -> stable, usable, and actively maintained
-    - inactive     -> stable and usable, but no longer actively developed
-    - unsupported  -> stable, usable, but author(s) have stopped all support
-    - moved        -> repo relocated; see https://www.repostatus.org/#moved for required alt-text format
-- DOI Badge: if the project has a DOI, replace the badge below or delete this line 
-- UV usage is recommended, if your project doesn't use it remove swap the badge with the one corresponding to your python package manager of choice (e.g. pip, conda, etc.).
 
-You can find badges here also they explain how you can set up a custom badge https://shields.io/badges  
+The badges below are placeholders — update or remove them to match your project. See [shields.io](https://shields.io/badges) for creating custom badges.
 
--->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://zenodo.org/doi/10.5281/zenodo.XXXXXXX)
 ![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)
+[![PyPI](https://img.shields.io/pypi/v/your-package-name?logo=python&logoColor=white)](https://pypi.org/project/your-package-name/) <!-- TODO: adjust/remove -->
+[![Conda](https://img.shields.io/conda/vn/conda-forge/your-package-name?logo=anaconda&logoColor=white)](https://anaconda.org/conda-forge/your-package-name) <!-- TODO: adjust/remove -->
+[![R](https://img.shields.io/badge/R-package-276DC3?logo=r&logoColor=white)](https://github.com/sodascience/your-repo) <!-- TODO: adjust/remove -->
+
+> [!NOTE]
+> The following table is for explanation purposes, please remove it in your final version of the README.
+
+**Project status options** ([repostatus.org](https://www.repostatus.org/)): 
+
+| Status | Meaning |
+|---|---|
+| `concept` | No real implementation yet — demo/proof-of-concept only |
+| `wip` | In development, no stable/usable release yet |
+| `suspended` | Development paused, but intended to resume |
+| `abandoned` | Stopped for good, no stable release was ever reached |
+| `active` | Stable, usable, and actively maintained |
+| `inactive` | Stable and usable, but no longer actively developed |
+| `unsupported` | Stable, usable, but author(s) have stopped all support |
+| `moved` | Repo relocated — see [repostatus.org/#moved](https://www.repostatus.org/#moved) for the required alt-text format |
+---
 
 __Project Goal and Description__ - Add a brief description of the project. What is the problem you are trying to solve? What is your proposed solution? What is the impact of your project?
 
 ## Highlights
 - Add highlights of your project. These can be anything that you think is important to mention.
 
+## Folder Structure
+
+Here is the initial folder structure of the project established in the template that you used to create your own project. Adjust it to reflect the actual folder structure of your project and describe certain important directories.
+
+```
+├── .github/        
+├── data/         
+│   ├── raw/         
+│   └── processed/   
+├── notebooks/       
+├── src/             
+├── .gitignore       
+├── LICENSE.txt      
+├── README.md        
+└── env.example      
+```
+
 ## Installation
-Add installation instructions here. For example for a staged pipeline you can show the commands that run each stage separately like the following:
+Add installation instructions here. For example, for a pipeline with multiple stages, you can show the commands that run each stage separately like the following:
 
 Example installation instructions for python:
 ```sh
@@ -108,9 +157,9 @@ uv run python main.py --stage modelling
 
 Example installation instructions for R:
 ```r
-# R (renv)
-renv::restore()
-Rscript main.R 
+# R (renv) — run from the terminal
+Rscript -e "renv::restore()"
+Rscript main.R
 ```
 
 ## Usage
@@ -118,7 +167,7 @@ Add a brief description of how to use your project.
 
 ## Citation
 
-Information about citation Latex-style code, if applicable.
+Provide a citation for your project. We recommend using either the bibtex format or APA, or both. Bibtex is convenient for LaTeX users, while APA is commonly used in many social sciences. 
 
 For example:
 
