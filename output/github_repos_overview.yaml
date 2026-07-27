@@ -1,0 +1,435 @@
+metadata:
+  organization: sodascience
+  generated_on: '2026-07-06'
+  total_repositories: 57
+by_topic:
+  research_topic:
+  - Other / Needs manual review
+  - AI & NLP
+  - Official Statistics & Administrative Data
+  - Geospatial Analysis
+  - Data Engineering & Infrastructure
+  - Economics & Public Policy
+  - Social Science & Survey Research
+  - Synthetic Data & Privacy
+  - Visualization & Applications
+  - Health & Population Studies
+  - Statistical Methods
+  - History & Humanities
+  - Resources / Project Support
+  'n':
+  - 11
+  - 7
+  - 6
+  - 5
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
+  - 3
+  - 3
+  - 1
+  - 1
+by_activity:
+  activity_status:
+  - 'Active: <6 months'
+  - 'Legacy: >2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 6-12 months'
+  'n':
+  - 19
+  - 19
+  - 11
+  - 8
+by_language:
+  language:
+  - Python
+  - R
+  - Jupyter Notebook
+  - HTML
+  - Unknown
+  - Shell
+  - Vue
+  'n':
+  - 20
+  - 18
+  - 9
+  - 4
+  - 4
+  - 1
+  - 1
+by_recommendation:
+  recommendation:
+  - Needs update
+  - Promote
+  - Maintain
+  'n':
+  - 30
+  - 19
+  - 8
+private_inactive:
+  repo: []
+  research_topic: []
+  activity_status: []
+  days_inactive: []
+  pushed_at: []
+  recommendation: []
+update_candidates:
+  repo:
+  - awesome-citizen-science-nl
+  - ddi-synth
+  - osmenrich
+  - workshop_cbs_microdata_computing
+  - night_globe
+  - dutch_sound_symbolism
+  - word_norms_survey
+  - open_supply_hub
+  - port-whatsapp-datadonation
+  - workshop_network_science
+  - schools_synth_test
+  - presentation-osmenrich-sig
+  - osmenrich_docker
+  - port-poc
+  - workshop_syntheticdata_osf2022
+  - workshop_causal_impact_assessment
+  - metasyn-distribution-template
+  - artscraper
+  - workshop_efficient_microdata
+  - find_geo_peers_fast
+  - engage_model
+  - regexmodel
+  - workshop_ossc
+  - generative_metadata_format
+  - metasyn-privacy-template
+  - empathy-viz
+  - fairprojects
+  - disease_database_viewer
+  - diaper_project
+  - disease_database
+  research_topic:
+  - Resources / Project Support
+  - Visualization & Applications
+  - Geospatial Analysis
+  - Official Statistics & Administrative Data
+  - Geospatial Analysis
+  - Other / Needs manual review
+  - Other / Needs manual review
+  - Other / Needs manual review
+  - Social Science & Survey Research
+  - Other / Needs manual review
+  - Economics & Public Policy
+  - Geospatial Analysis
+  - Data Engineering & Infrastructure
+  - Social Science & Survey Research
+  - Synthetic Data & Privacy
+  - Economics & Public Policy
+  - Synthetic Data & Privacy
+  - History & Humanities
+  - Official Statistics & Administrative Data
+  - Geospatial Analysis
+  - Social Science & Survey Research
+  - Other / Needs manual review
+  - Data Engineering & Infrastructure
+  - Statistical Methods
+  - Synthetic Data & Privacy
+  - Visualization & Applications
+  - Visualization & Applications
+  - Health & Population Studies
+  - Health & Population Studies
+  - Health & Population Studies
+  activity_status:
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Legacy: >2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  - 'Inactive: 1-2 years'
+  days_inactive:
+  - 1889.0
+  - 1679.0
+  - 1658.0
+  - 1512.0
+  - 1497.0
+  - 1075.0
+  - 1075.0
+  - 1041.0
+  - 1032.0
+  - 907.0
+  - 901.0
+  - 882.0
+  - 882.0
+  - 882.0
+  - 882.0
+  - 882.0
+  - 880.0
+  - 812.0
+  - 809.0
+  - 679.0
+  - 679.0
+  - 657.0
+  - 647.0
+  - 564.0
+  - 520.0
+  - 514.0
+  - 497.0
+  - 440.0
+  - 431.0
+  - 374.0
+  pushed_at:
+  - 18751.0
+  - 18961.0
+  - 18982.0
+  - 19128.0
+  - 19143.0
+  - 19565.0
+  - 19565.0
+  - 19599.0
+  - 19608.0
+  - 19733.0
+  - 19739.0
+  - 19758.0
+  - 19758.0
+  - 19758.0
+  - 19758.0
+  - 19758.0
+  - 19760.0
+  - 19828.0
+  - 19831.0
+  - 19961.0
+  - 19961.0
+  - 19983.0
+  - 19993.0
+  - 20076.0
+  - 20120.0
+  - 20126.0
+  - 20143.0
+  - 20200.0
+  - 20209.0
+  - 20266.0
+  suggested_action:
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+  - Review dependencies, documentation, reproducibility, and whether the repo is still
+    actively useful.
+promotion_candidates:
+  repo:
+  - BiodiversityASSET
+  - LifeProject
+  - workshop_llm_data_collection
+  - kansenkaart_analysis
+  - websweep
+  - nprz_synthetic_controls
+  - workshop_geocausal
+  - kansenkaart_preprocessing
+  - cbs_python
+  - metasyn
+  - netCBS
+  - remode
+  - sicss_llm_workshop
+  - website
+  - synthetic_youth_pilot
+  - bestworst_analysis
+  - social_science_inferences_with_llms
+  - metasyn-disclosure-control
+  - map-explorer
+  research_topic:
+  - AI & NLP
+  - AI & NLP
+  - AI & NLP
+  - Data Engineering & Infrastructure
+  - Data Engineering & Infrastructure
+  - Economics & Public Policy
+  - Economics & Public Policy
+  - Geospatial Analysis
+  - Official Statistics & Administrative Data
+  - Official Statistics & Administrative Data
+  - Official Statistics & Administrative Data
+  - Other / Needs manual review
+  - Other / Needs manual review
+  - Other / Needs manual review
+  - Social Science & Survey Research
+  - Statistical Methods
+  - Statistical Methods
+  - Synthetic Data & Privacy
+  - Visualization & Applications
+  language:
+  - Python
+  - Python
+  - Jupyter Notebook
+  - R
+  - Python
+  - R
+  - HTML
+  - R
+  - Python
+  - Python
+  - Python
+  - Jupyter Notebook
+  - Jupyter Notebook
+  - HTML
+  - Python
+  - R
+  - Unknown
+  - Python
+  - Vue
+  stars:
+  - 1
+  - 0
+  - 3
+  - 3
+  - 2
+  - 1
+  - 2
+  - 4
+  - 1
+  - 55
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 11
+  - 2
+  - 6
+  forks:
+  - 1
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  - 0
+  - 1
+  - 4
+  - 12
+  - 6
+  - 0
+  - 2
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 3
+  has_pages:
+  - no
+  - no
+  - yes
+  - no
+  - no
+  - no
+  - yes
+  - no
+  - no
+  - no
+  - no
+  - no
+  - no
+  - yes
+  - no
+  - no
+  - no
+  - no
+  - yes
+  suggested_action:
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.
+  - Consider adding tutorial, example workflow, README improvements, or project page.

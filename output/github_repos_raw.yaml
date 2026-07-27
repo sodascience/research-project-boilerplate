@@ -1,0 +1,1788 @@
+artscraper:
+  repo: artscraper
+  full_name: sodascience/artscraper
+  description: Python package for downloading art and metadata of WikiArt and Google
+    Arts & Culture
+  url: https://github.com/sodascience/artscraper
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: art; download; google-arts-and-culture; odissei; wikiart
+  created_at: 19073.0
+  updated_at: 20587.0
+  pushed_at: 19828.0
+  stars: 19
+  watchers: 19
+  forks: 1
+  size_kb: 1231
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 812.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: History & Humanities
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+awesome-citizen-science-nl:
+  repo: awesome-citizen-science-nl
+  full_name: sodascience/awesome-citizen-science-nl
+  description: A curated list of awesome Citizen Science Projects in the Netherlands
+  url: https://github.com/sodascience/awesome-citizen-science-nl
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: awesome-list; citizen-science; netherlands; odissei; science-research; utrecht-university
+  created_at: 18716.0
+  updated_at: 20256.0
+  pushed_at: 18751.0
+  stars: 20
+  watchers: 20
+  forks: 4
+  size_kb: 989
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: Creative Commons Attribution 4.0 International
+  days_inactive: 1889.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Resources / Project Support
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+bestworst_analysis:
+  repo: bestworst_analysis
+  full_name: sodascience/bestworst_analysis
+  description: Bayesian analysis of best-worst scaling data
+  url: https://github.com/sodascience/bestworst_analysis
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: bayesian-inference; best-worst-scaling; ranking-data; word-associations
+  created_at: 19565.0
+  updated_at: 20389.0
+  pushed_at: 20389.0
+  stars: 1
+  watchers: 1
+  forks: 0
+  size_kb: 288
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 251.0
+  activity_status: 'Inactive: 6-12 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Statistical Methods
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+BiodiversityASSET:
+  repo: BiodiversityASSET
+  full_name: sodascience/BiodiversityASSET
+  description: LLM-powered analysis of biodiversity-related investment activities
+    in financial reports
+  url: https://github.com/sodascience/BiodiversityASSET
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: biodiversity; economics; llm; nlp
+  created_at: 20279.0
+  updated_at: 20560.0
+  pushed_at: 20419.0
+  stars: 1
+  watchers: 1
+  forks: 1
+  size_kb: 158
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 221.0
+  activity_status: 'Inactive: 6-12 months'
+  has_description: yes
+  has_license: yes
+  research_topic: AI & NLP
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+cbs_python:
+  repo: cbs_python
+  full_name: sodascience/cbs_python
+  description: An example python environment to use in CBS
+  url: https://github.com/sodascience/cbs_python
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: cbs; conda; environment; python; statistics-netherlands; yml
+  created_at: 19523.0
+  updated_at: 20634.0
+  pushed_at: 20634.0
+  stars: 1
+  watchers: 1
+  forks: 4
+  size_kb: 1468
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: no
+  has_pages: no
+  license: MIT License
+  days_inactive: 6.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Official Statistics & Administrative Data
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+ddi-synth:
+  repo: ddi-synth
+  full_name: sodascience/ddi-synth
+  description: Synthesize dataverse data based on DDI metadata
+  url: https://github.com/sodascience/ddi-synth
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: dataverse; metadata; shiny-apps; synthetic-data
+  created_at: 18862.0
+  updated_at: 20327.0
+  pushed_at: 18961.0
+  stars: 2
+  watchers: 2
+  forks: 1
+  size_kb: 95
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 1679.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Visualization & Applications
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+diaper_project:
+  repo: diaper_project
+  full_name: sodascience/diaper_project
+  description: Population-based study of poverty and perinatal maternal and child
+    health in the Netherlands
+  url: https://github.com/sodascience/diaper_project
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: mediation-analysis; perinatal; population-based-study
+  created_at: 20062.0
+  updated_at: 20209.0
+  pushed_at: 20209.0
+  stars: 0
+  watchers: 0
+  forks: 1
+  size_kb: 20
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 431.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Health & Population Studies
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+disease_database:
+  repo: disease_database
+  full_name: sodascience/disease_database
+  description: Historical disease database (19th-20th century) for municipalities
+    in the Netherlands
+  url: https://github.com/sodascience/disease_database
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: demography; geospatial-data; health; history
+  created_at: 19879.0
+  updated_at: 20280.0
+  pushed_at: 20266.0
+  stars: 1
+  watchers: 1
+  forks: 0
+  size_kb: 14683
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 374.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Health & Population Studies
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+disease_database_viewer:
+  repo: disease_database_viewer
+  full_name: sodascience/disease_database_viewer
+  description: Viewer for historical disease database
+  url: https://github.com/sodascience/disease_database_viewer
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: disease-spread; history; mapping; shiny-apps
+  created_at: 20145.0
+  updated_at: 20146.0
+  pushed_at: 20200.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 473
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 440.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Health & Population Studies
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+dutch_sound_symbolism:
+  repo: dutch_sound_symbolism
+  full_name: sodascience/dutch_sound_symbolism
+  description: Comparing word similarity from embeddings to human-rated word associations
+  url: https://github.com/sodascience/dutch_sound_symbolism
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: bert; dutch; fasttext; sound-symbolism; word-embeddings
+  created_at: 19383.0
+  updated_at: 19758.0
+  pushed_at: 19565.0
+  stars: 1
+  watchers: 1
+  forks: 2
+  size_kb: 3015
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 1075.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+election_database:
+  repo: election_database
+  full_name: sodascience/election_database
+  description: Data processing pipeline to create an analytical database for Dutch
+    elections
+  url: https://github.com/sodascience/election_database
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: data-pipeline; database; duckdb; election-data; open-data; rstats
+  created_at: 20398.0
+  updated_at: 20558.0
+  pushed_at: 20409.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 535
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 231.0
+  activity_status: 'Inactive: 6-12 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Official Statistics & Administrative Data
+  recommendation: Maintain
+  suggested_action: Keep maintained; periodically review documentation, issues, and
+    dependencies.
+empathy-viz:
+  repo: empathy-viz
+  full_name: sodascience/empathy-viz
+  description: An application to be used in a clinical setting to score dynamics in
+    empathy
+  url: https://github.com/sodascience/empathy-viz
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: data-visualization; empathy; r; shiny-apps; survey
+  created_at: 18921.0
+  updated_at: 20126.0
+  pushed_at: 20126.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 8170
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: GNU Affero General Public License v3.0
+  days_inactive: 514.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Visualization & Applications
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+engage_model:
+  repo: engage_model
+  full_name: sodascience/engage_model
+  description: Exploring different models for analyzing a study on engagement with
+    online therapy
+  url: https://github.com/sodascience/engage_model
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: models; psychology; statistics; therapy
+  created_at: 19961.0
+  updated_at: 19961.0
+  pushed_at: 19961.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 203
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 679.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Social Science & Survey Research
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+fairprojects:
+  repo: fairprojects
+  full_name: sodascience/fairprojects
+  description: Dashboard for FAIRness of organisation's projects
+  url: https://github.com/sodascience/fairprojects
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: dashboard; fair; project-management
+  created_at: 19708.0
+  updated_at: 20143.0
+  pushed_at: 20143.0
+  stars: 2
+  watchers: 2
+  forks: 1
+  size_kb: 120
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: GNU General Public License v3.0
+  days_inactive: 497.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Visualization & Applications
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+find_geo_peers_fast:
+  repo: find_geo_peers_fast
+  full_name: sodascience/find_geo_peers_fast
+  description: Finding geographical neighbors of neighbors fast
+  url: https://github.com/sodascience/find_geo_peers_fast
+  private: no
+  visibility: Public
+  archived: no
+  language: Jupyter Notebook
+  topics: balltree; geospatial; neighbor-search; spatial-analysis
+  created_at: 19961.0
+  updated_at: 19965.0
+  pushed_at: 19961.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 49
+  default_branch: main
+  has_issues: no
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 679.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Geospatial Analysis
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+FTOLP_Data_Pipeline:
+  repo: FTOLP_Data_Pipeline
+  full_name: sodascience/FTOLP_Data_Pipeline
+  description: Repository for the data pipeline in the FTOLP project.
+  url: https://github.com/sodascience/FTOLP_Data_Pipeline
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: dataannotation; lifecourse; llm; psychology
+  created_at: 20399.0
+  updated_at: 20487.0
+  pushed_at: 20615.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 491
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 25.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: AI & NLP
+  recommendation: Maintain
+  suggested_action: Keep maintained; periodically review documentation, issues, and
+    dependencies.
+generative_metadata_format:
+  repo: generative_metadata_format
+  full_name: sodascience/generative_metadata_format
+  description: Generative metadata format for generating synthetic tabular datasets
+  url: https://github.com/sodascience/generative_metadata_format
+  private: no
+  visibility: Public
+  archived: no
+  language: Unknown
+  topics: standard; statistical-metadata; synthetic-data
+  created_at: 19209.0
+  updated_at: 20076.0
+  pushed_at: 20076.0
+  stars: 1
+  watchers: 1
+  forks: 0
+  size_kb: 93
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: MIT License
+  days_inactive: 564.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Statistical Methods
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+Github_Manifest:
+  repo: Github_Manifest
+  full_name: sodascience/Github_Manifest
+  description: Organizational guidelines for working with Github
+  url: https://github.com/sodascience/Github_Manifest
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: guide; guidelines
+  created_at: 20612.0
+  updated_at: 20636.0
+  pushed_at: 20636.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 1031
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: .na.character
+  days_inactive: 4.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: no
+  research_topic: Other / Needs manual review
+  recommendation: Maintain
+  suggested_action: Keep maintained; periodically review documentation, issues, and
+    dependencies.
+kansenkaart_analysis:
+  repo: kansenkaart_analysis
+  full_name: sodascience/kansenkaart_analysis
+  description: Analysis code for the kansenkaart project
+  url: https://github.com/sodascience/kansenkaart_analysis
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: cluster-computing; mapping; opportunity
+  created_at: 18787.0
+  updated_at: 20509.0
+  pushed_at: 20405.0
+  stars: 3
+  watchers: 3
+  forks: 1
+  size_kb: 206
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: GNU General Public License v3.0
+  days_inactive: 235.0
+  activity_status: 'Inactive: 6-12 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Data Engineering & Infrastructure
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+kansenkaart_preprocessing:
+  repo: kansenkaart_preprocessing
+  full_name: sodascience/kansenkaart_preprocessing
+  description: The processing pipeline for the Dutch Opportunity atlas
+  url: https://github.com/sodascience/kansenkaart_preprocessing
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: data-processing; mapping; opportunity
+  created_at: 18646.0
+  updated_at: 20509.0
+  pushed_at: 20278.0
+  stars: 4
+  watchers: 4
+  forks: 1
+  size_kb: 635
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: Apache License 2.0
+  days_inactive: 362.0
+  activity_status: 'Inactive: 6-12 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Geospatial Analysis
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+lichess_db:
+  repo: lichess_db
+  full_name: sodascience/lichess_db
+  description: Lichess game header data as parquet files
+  url: https://github.com/sodascience/lichess_db
+  private: no
+  visibility: Public
+  archived: no
+  language: Jupyter Notebook
+  topics: database; lichess; lichess-database
+  created_at: 19667.0
+  updated_at: 20474.0
+  pushed_at: 20474.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 1377
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: no
+  has_pages: no
+  license: MIT License
+  days_inactive: 166.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Maintain
+  suggested_action: Keep maintained; periodically review documentation, issues, and
+    dependencies.
+LifeProject:
+  repo: LifeProject
+  full_name: sodascience/LifeProject
+  description: An automated system for classifying life goals using Large Language
+    Models
+  url: https://github.com/sodascience/LifeProject
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: annotation; life-goals; llm
+  created_at: 20276.0
+  updated_at: 20524.0
+  pushed_at: 20524.0
+  stars: 0
+  watchers: 0
+  forks: 2
+  size_kb: 2399
+  default_branch: batch-llm-call
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 116.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: AI & NLP
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+map-explorer:
+  repo: map-explorer
+  full_name: sodascience/map-explorer
+  description: 'Map Explorer is a Vue.js web application for rendering GeoJSON maps
+    with dynamic region coloring based on external data. '
+  url: https://github.com/sodascience/map-explorer
+  private: no
+  visibility: Public
+  archived: no
+  language: Vue
+  topics: choropleth; data-analysis; data-visualization; geojson
+  created_at: 20206.0
+  updated_at: 20636.0
+  pushed_at: 20636.0
+  stars: 6
+  watchers: 6
+  forks: 3
+  size_kb: 37764
+  default_branch: master
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: MIT License
+  days_inactive: 4.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Visualization & Applications
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+mental_health_recovery:
+  repo: mental_health_recovery
+  full_name: sodascience/mental_health_recovery
+  description: Understanding mental-health non-recovery from COVID-19
+  url: https://github.com/sodascience/mental_health_recovery
+  private: no
+  visibility: Public
+  archived: no
+  language: Jupyter Notebook
+  topics: covid; covid-19; interpretable-machine-learning; liss; mental-health
+  created_at: 19884.0
+  updated_at: 20413.0
+  pushed_at: 20397.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 32826
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 243.0
+  activity_status: 'Inactive: 6-12 months'
+  has_description: yes
+  has_license: yes
+  research_topic: AI & NLP
+  recommendation: Maintain
+  suggested_action: Keep maintained; periodically review documentation, issues, and
+    dependencies.
+metasyn:
+  repo: metasyn
+  full_name: sodascience/metasyn
+  description: Transparent and privacy-friendly synthetic data generation
+  url: https://github.com/sodascience/metasyn
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: metadata; open-data; privacy; synthetic-data
+  created_at: 19095.0
+  updated_at: 20636.0
+  pushed_at: 20634.0
+  stars: 55
+  watchers: 55
+  forks: 12
+  size_kb: 9739
+  default_branch: develop
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 6.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Official Statistics & Administrative Data
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+metasyn-disclosure-control:
+  repo: metasyn-disclosure-control
+  full_name: sodascience/metasyn-disclosure-control
+  description: Plugin for metasyn that prevents data from leaking.
+  url: https://github.com/sodascience/metasyn-disclosure-control
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: disclosure-control; metasyn; plugin; privacy-protection; synthetic-data
+  created_at: 19202.0
+  updated_at: 20586.0
+  pushed_at: 20586.0
+  stars: 2
+  watchers: 2
+  forks: 1
+  size_kb: 4765
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 54.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Synthetic Data & Privacy
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+metasyn-distribution-template:
+  repo: metasyn-distribution-template
+  full_name: sodascience/metasyn-distribution-template
+  description: Template for adding distribution plugins for the metasyn library
+  url: https://github.com/sodascience/metasyn-distribution-template
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: metasyn; plugin; synthetic-data
+  created_at: 19741.0
+  updated_at: 20005.0
+  pushed_at: 19760.0
+  stars: 1
+  watchers: 1
+  forks: 1
+  size_kb: 86
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: no
+  has_pages: no
+  license: MIT License
+  days_inactive: 880.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Synthetic Data & Privacy
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+metasyn-privacy-template:
+  repo: metasyn-privacy-template
+  full_name: sodascience/metasyn-privacy-template
+  description: Template for creating privacy plugins for the metasyn library
+  url: https://github.com/sodascience/metasyn-privacy-template
+  private: no
+  visibility: Public
+  archived: no
+  language: Jupyter Notebook
+  topics: metasyn; plugin; synthetic-data
+  created_at: 19481.0
+  updated_at: 20005.0
+  pushed_at: 20120.0
+  stars: 0
+  watchers: 0
+  forks: 1
+  size_kb: 142
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: no
+  has_pages: no
+  license: MIT License
+  days_inactive: 520.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Synthetic Data & Privacy
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+netCBS:
+  repo: netCBS
+  full_name: sodascience/netCBS
+  description: Package to efficiently create network measures using CBS networks (POPNET)
+    in the RA
+  url: https://github.com/sodascience/netCBS
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: cbs; networks; popnet
+  created_at: 19857.0
+  updated_at: 20441.0
+  pushed_at: 20441.0
+  stars: 1
+  watchers: 1
+  forks: 6
+  size_kb: 41014
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 199.0
+  activity_status: 'Inactive: 6-12 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Official Statistics & Administrative Data
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+night_globe:
+  repo: night_globe
+  full_name: sodascience/night_globe
+  description: Correcting inferences in volunteer data using geospatial covariates
+  url: https://github.com/sodascience/night_globe
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: geospatial-data; inference; statistics; volunteer-data
+  created_at: 18801.0
+  updated_at: 19705.0
+  pushed_at: 19143.0
+  stars: 0
+  watchers: 0
+  forks: 2
+  size_kb: 85266
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 1497.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Geospatial Analysis
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+nprz_synthetic_controls:
+  repo: nprz_synthetic_controls
+  full_name: sodascience/nprz_synthetic_controls
+  description: Code Archive for Synthetic Control Analysis of the NPRZ Education Intervention
+  url: https://github.com/sodascience/nprz_synthetic_controls
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: causal-inference; education; policy-interventions; synthetic-control-method
+  created_at: 19916.0
+  updated_at: 20467.0
+  pushed_at: 20467.0
+  stars: 1
+  watchers: 1
+  forks: 0
+  size_kb: 102
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 173.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Economics & Public Policy
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+open_supply_hub:
+  repo: open_supply_hub
+  full_name: sodascience/open_supply_hub
+  description: Processing supply chain data obtained from Open Supply Hub
+  url: https://github.com/sodascience/open_supply_hub
+  private: no
+  visibility: Public
+  archived: no
+  language: Jupyter Notebook
+  topics: data; global-supply-chain; open-supply-hub; python
+  created_at: 19416.0
+  updated_at: 20132.0
+  pushed_at: 19599.0
+  stars: 1
+  watchers: 1
+  forks: 0
+  size_kb: 16246
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 1041.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+osmenrich:
+  repo: osmenrich
+  full_name: sodascience/osmenrich
+  description: Enrich sf data with geographic features from OpenStreetMaps.
+  url: https://github.com/sodascience/osmenrich
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: geospatial; geospatial-data; odissei; osm; sf; utrecht-university
+  created_at: 18667.0
+  updated_at: 20457.0
+  pushed_at: 18982.0
+  stars: 19
+  watchers: 19
+  forks: 2
+  size_kb: 14466
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: no
+  has_pages: yes
+  license: MIT License
+  days_inactive: 1658.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Geospatial Analysis
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+osmenrich_docker:
+  repo: osmenrich_docker
+  full_name: sodascience/osmenrich_docker
+  description: Setup local OSRM and Overpass API endpoints using Docker
+  url: https://github.com/sodascience/osmenrich_docker
+  private: no
+  visibility: Public
+  archived: no
+  language: Shell
+  topics: docker; osrm; overpass-api; soda-science-team; utrecht-university
+  created_at: 18669.0
+  updated_at: 20389.0
+  pushed_at: 19758.0
+  stars: 6
+  watchers: 6
+  forks: 4
+  size_kb: 103
+  default_branch: master
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 882.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Data Engineering & Infrastructure
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+port-poc:
+  repo: port-poc
+  full_name: sodascience/port-poc
+  description: POC for the Port project
+  url: https://github.com/sodascience/port-poc
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: application; data-donation; port; python
+  created_at: 19136.0
+  updated_at: 19758.0
+  pushed_at: 19758.0
+  stars: 0
+  watchers: 0
+  forks: 3
+  size_kb: 7223
+  default_branch: master
+  has_issues: no
+  has_projects: yes
+  has_wiki: no
+  has_pages: no
+  license: GNU Affero General Public License v3.0
+  days_inactive: 882.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Social Science & Survey Research
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+port-whatsapp-datadonation:
+  repo: port-whatsapp-datadonation
+  full_name: sodascience/port-whatsapp-datadonation
+  description: A project for extracting information from WhatsApp data download packages
+    using an online platform(PORT)
+  url: https://github.com/sodascience/port-whatsapp-datadonation
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: data-donation; data-download-package; port; privacy-protection; whatsapp
+  created_at: 19240.0
+  updated_at: 20390.0
+  pushed_at: 19608.0
+  stars: 4
+  watchers: 4
+  forks: 0
+  size_kb: 8408
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 1032.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Social Science & Survey Research
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+presentation-osmenrich-sig:
+  repo: presentation-osmenrich-sig
+  full_name: sodascience/presentation-osmenrich-sig
+  description: Presentation for the UU special interest group open statistical software
+  url: https://github.com/sodascience/presentation-osmenrich-sig
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: data-science; geospatial; software
+  created_at: 18655.0
+  updated_at: 19758.0
+  pushed_at: 19758.0
+  stars: 1
+  watchers: 1
+  forks: 0
+  size_kb: 40991
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: Creative Commons Attribution 4.0 International
+  days_inactive: 882.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Geospatial Analysis
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+regexmodel:
+  repo: regexmodel
+  full_name: sodascience/regexmodel
+  description: Using regex to learn the structure of strings
+  url: https://github.com/sodascience/regexmodel
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: graph-model; python; regex; strings
+  created_at: 19591.0
+  updated_at: 20076.0
+  pushed_at: 19983.0
+  stars: 4
+  watchers: 4
+  forks: 0
+  size_kb: 1440
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: no
+  has_pages: no
+  license: MIT License
+  days_inactive: 657.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+remode:
+  repo: remode
+  full_name: sodascience/remode
+  description: Finding modes in discrete distributions
+  url: https://github.com/sodascience/remode
+  private: no
+  visibility: Public
+  archived: no
+  language: Jupyter Notebook
+  topics: modality; mode-detection; ordinal-data
+  created_at: 19838.0
+  updated_at: 20524.0
+  pushed_at: 20524.0
+  stars: 1
+  watchers: 1
+  forks: 0
+  size_kb: 533
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 116.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+research-project-boilerplate:
+  repo: research-project-boilerplate
+  full_name: sodascience/research-project-boilerplate
+  description: Boilerplate project with the recommended structure for a data processing
+    research project. It can be used as a template for your own project
+  url: https://github.com/sodascience/research-project-boilerplate
+  private: no
+  visibility: Public
+  archived: no
+  language: Unknown
+  topics: ''
+  created_at: 20612.0
+  updated_at: 20637.0
+  pushed_at: 20637.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 100
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 3.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Maintain
+  suggested_action: Keep maintained; periodically review documentation, issues, and
+    dependencies.
+schools_synth_test:
+  repo: schools_synth_test
+  full_name: sodascience/schools_synth_test
+  description: Test code for disaggregated synthetic control with simulated data
+  url: https://github.com/sodascience/schools_synth_test
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: causal-inference; simulation; statistics; synthetic-control
+  created_at: 19552.0
+  updated_at: 19739.0
+  pushed_at: 19739.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 11575
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 901.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Economics & Public Policy
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+sicss_llm_workshop:
+  repo: sicss_llm_workshop
+  full_name: sodascience/sicss_llm_workshop
+  description: Materials and notebooks for the SICSS LLM workshop.
+  url: https://github.com/sodascience/sicss_llm_workshop
+  private: no
+  visibility: Public
+  archived: no
+  language: Jupyter Notebook
+  topics: ''
+  created_at: 20602.0
+  updated_at: 20616.0
+  pushed_at: 20615.0
+  stars: 1
+  watchers: 1
+  forks: 2
+  size_kb: 1796
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: Creative Commons Attribution 4.0 International
+  days_inactive: 25.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+social_science_inferences_with_llms:
+  repo: social_science_inferences_with_llms
+  full_name: sodascience/social_science_inferences_with_llms
+  description: Addressing LLM-related measurement error in social science modeling
+    research.
+  url: https://github.com/sodascience/social_science_inferences_with_llms
+  private: no
+  visibility: Public
+  archived: no
+  language: Unknown
+  topics: data-collection; inference; large-language-models; llms
+  created_at: 20045.0
+  updated_at: 20580.0
+  pushed_at: 20580.0
+  stars: 11
+  watchers: 11
+  forks: 1
+  size_kb: 140
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 60.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Statistical Methods
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+soda_llm_infra_guide:
+  repo: soda_llm_infra_guide
+  full_name: sodascience/soda_llm_infra_guide
+  description: SoDa Guide to LLM Computing Infrastructure in the Netherlands
+  url: https://github.com/sodascience/soda_llm_infra_guide
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: data; data-governance-and-ai; infrastructure; llm; netherlands; resources
+  created_at: 20542.0
+  updated_at: 20563.0
+  pushed_at: 20637.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 863
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: .na.character
+  days_inactive: 3.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: no
+  research_topic: AI & NLP
+  recommendation: Maintain
+  suggested_action: Keep maintained; periodically review documentation, issues, and
+    dependencies.
+synthetic_youth_pilot:
+  repo: synthetic_youth_pilot
+  full_name: sodascience/synthetic_youth_pilot
+  description: Synthetic data pilot for YOUth study questionnaires, using metasyn
+  url: https://github.com/sodascience/synthetic_youth_pilot
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: questionnaire-survey; synthetic-data; youth-data
+  created_at: 20215.0
+  updated_at: 20589.0
+  pushed_at: 20433.0
+  stars: 1
+  watchers: 1
+  forks: 1
+  size_kb: 9420
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 207.0
+  activity_status: 'Inactive: 6-12 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Social Science & Survey Research
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+time_emissions:
+  repo: time_emissions
+  full_name: sodascience/time_emissions
+  description: 'This project explores how we can leverage Dutch register data to impute
+    (time-use & expenditure) survey data for individuals outside the original sample. '
+  url: https://github.com/sodascience/time_emissions
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: carbon-emissions; cbs; expenditures; machine-learning; multiple-imputation;
+    time-use
+  created_at: 20392.0
+  updated_at: 20466.0
+  pushed_at: 20466.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 5023
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 174.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: AI & NLP
+  recommendation: Maintain
+  suggested_action: Keep maintained; periodically review documentation, issues, and
+    dependencies.
+website:
+  repo: website
+  full_name: sodascience/website
+  description: The SoDa website
+  url: https://github.com/sodascience/website
+  private: no
+  visibility: Public
+  archived: no
+  language: HTML
+  topics: communications; online-presence; webpage; website
+  created_at: 19184.0
+  updated_at: 20623.0
+  pushed_at: 20623.0
+  stars: 0
+  watchers: 0
+  forks: 1
+  size_kb: 54458
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: MIT License
+  days_inactive: 17.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+websweep:
+  repo: websweep
+  full_name: sodascience/websweep
+  description: A user-friendly and high-speed web scraping library
+  url: https://github.com/sodascience/websweep
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: crawler; extractor; scraper; webscrapper; websweep
+  created_at: 19035.0
+  updated_at: 20584.0
+  pushed_at: 20524.0
+  stars: 2
+  watchers: 2
+  forks: 0
+  size_kb: 5093
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 116.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Data Engineering & Infrastructure
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+word_norms_survey:
+  repo: word_norms_survey
+  full_name: sodascience/word_norms_survey
+  description: Survey to derive word norms in Dutch for various associations
+  url: https://github.com/sodascience/word_norms_survey
+  private: no
+  visibility: Public
+  archived: no
+  language: Python
+  topics: dutch-language; survey; word-associations; word-embeddings
+  created_at: 19565.0
+  updated_at: 19751.0
+  pushed_at: 19565.0
+  stars: 0
+  watchers: 0
+  forks: 1
+  size_kb: 9394
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: no
+  has_pages: no
+  license: MIT License
+  days_inactive: 1075.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+workshop_causal_impact_assessment:
+  repo: workshop_causal_impact_assessment
+  full_name: sodascience/workshop_causal_impact_assessment
+  description: Repository containing materials for the ODISSEI workshop on causal
+    impact assessment
+  url: https://github.com/sodascience/workshop_causal_impact_assessment
+  private: no
+  visibility: Public
+  archived: no
+  language: HTML
+  topics: causal-inference; policy-evaluation; workshop
+  created_at: 19307.0
+  updated_at: 20206.0
+  pushed_at: 19758.0
+  stars: 4
+  watchers: 4
+  forks: 3
+  size_kb: 54088
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: Creative Commons Attribution 4.0 International
+  days_inactive: 882.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Economics & Public Policy
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+workshop_cbs_microdata_computing:
+  repo: workshop_cbs_microdata_computing
+  full_name: sodascience/workshop_cbs_microdata_computing
+  description: Presentation and code for CBS microdata meeting
+  url: https://github.com/sodascience/workshop_cbs_microdata_computing
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: cbs; microdata; national-statistics; odissei; r; supercomputing
+  created_at: 19125.0
+  updated_at: 20589.0
+  pushed_at: 19128.0
+  stars: 1
+  watchers: 1
+  forks: 2
+  size_kb: 17916
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: MIT License
+  days_inactive: 1512.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Official Statistics & Administrative Data
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+workshop_efficient_microdata:
+  repo: workshop_efficient_microdata
+  full_name: sodascience/workshop_efficient_microdata
+  description: Workshop for efficiently doing projects with CBS microdata.
+  url: https://github.com/sodascience/workshop_efficient_microdata
+  private: no
+  visibility: Public
+  archived: no
+  language: HTML
+  topics: computing; microdata; project-organisation; statistics
+  created_at: 19825.0
+  updated_at: 19831.0
+  pushed_at: 19831.0
+  stars: 0
+  watchers: 0
+  forks: 1
+  size_kb: 16263
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: Creative Commons Attribution 4.0 International
+  days_inactive: 809.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Official Statistics & Administrative Data
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+workshop_geocausal:
+  repo: workshop_geocausal
+  full_name: sodascience/workshop_geocausal
+  description: Workshop prepared for SICSS on causality and geospatial causality
+  url: https://github.com/sodascience/workshop_geocausal
+  private: no
+  visibility: Public
+  archived: no
+  language: HTML
+  topics: causal-inference; causality; geospatial; python; workshop
+  created_at: 20609.0
+  updated_at: 20626.0
+  pushed_at: 20613.0
+  stars: 2
+  watchers: 2
+  forks: 0
+  size_kb: 52790
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: Creative Commons Attribution 4.0 International
+  days_inactive: 27.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: Economics & Public Policy
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+workshop_llm_data_collection:
+  repo: workshop_llm_data_collection
+  full_name: sodascience/workshop_llm_data_collection
+  description: ' This repository contains the code and slides for our workshop on
+    data collection and inference with Large Language Models'
+  url: https://github.com/sodascience/workshop_llm_data_collection
+  private: no
+  visibility: Public
+  archived: no
+  language: Jupyter Notebook
+  topics: data-collection; inference; llm; python; r; workshop; workshop-materials
+  created_at: 20166.0
+  updated_at: 20635.0
+  pushed_at: 20580.0
+  stars: 3
+  watchers: 3
+  forks: 2
+  size_kb: 9771
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: Creative Commons Attribution 4.0 International
+  days_inactive: 60.0
+  activity_status: 'Active: <6 months'
+  has_description: yes
+  has_license: yes
+  research_topic: AI & NLP
+  recommendation: Promote
+  suggested_action: Consider adding tutorial, example workflow, README improvements,
+    or project page.
+workshop_network_science:
+  repo: workshop_network_science
+  full_name: sodascience/workshop_network_science
+  description: Materials for the workshop on network science (SICSS, summer school
+    at ODISSEI)
+  url: https://github.com/sodascience/workshop_network_science
+  private: no
+  visibility: Public
+  archived: no
+  language: Jupyter Notebook
+  topics: network-science; networks; odissei; sicss
+  created_at: 19730.0
+  updated_at: 19825.0
+  pushed_at: 19733.0
+  stars: 0
+  watchers: 0
+  forks: 0
+  size_kb: 29294
+  default_branch: main
+  has_issues: no
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: GNU General Public License v3.0
+  days_inactive: 907.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Other / Needs manual review
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+workshop_ossc:
+  repo: workshop_ossc
+  full_name: sodascience/workshop_ossc
+  description: 'This repository contains the code and presentation of the workshop
+    on parallel computing & cluster computing using R in collaboration with SURF. '
+  url: https://github.com/sodascience/workshop_ossc
+  private: no
+  visibility: Public
+  archived: no
+  language: R
+  topics: agent-based-modeling; cluster-computing; high-performance-computing; odissei;
+    parallel-computing; r; simulation; surf
+  created_at: 19076.0
+  updated_at: 20465.0
+  pushed_at: 19993.0
+  stars: 4
+  watchers: 4
+  forks: 4
+  size_kb: 55301
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: yes
+  license: MIT License
+  days_inactive: 647.0
+  activity_status: 'Inactive: 1-2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Data Engineering & Infrastructure
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.
+workshop_syntheticdata_osf2022:
+  repo: workshop_syntheticdata_osf2022
+  full_name: sodascience/workshop_syntheticdata_osf2022
+  description: Files for the synthetic data presentation at the Open Science Festival
+    2022
+  url: https://github.com/sodascience/workshop_syntheticdata_osf2022
+  private: no
+  visibility: Public
+  archived: no
+  language: Unknown
+  topics: open-science; privacy-protection; synthetic-data-generation
+  created_at: 19286.0
+  updated_at: 20589.0
+  pushed_at: 19758.0
+  stars: 1
+  watchers: 1
+  forks: 0
+  size_kb: 2389
+  default_branch: main
+  has_issues: yes
+  has_projects: yes
+  has_wiki: yes
+  has_pages: no
+  license: Creative Commons Attribution 4.0 International
+  days_inactive: 882.0
+  activity_status: 'Legacy: >2 years'
+  has_description: yes
+  has_license: yes
+  research_topic: Synthetic Data & Privacy
+  recommendation: Needs update
+  suggested_action: Review dependencies, documentation, reproducibility, and whether
+    the repo is still actively useful.

@@ -1,0 +1,307 @@
+---
+title: "Landscape Analysis Guide"
+author: "Kinansa Husainy"
+date: "2026-06-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# GitHub Repository Landscape Analysis Guide
+
+## Purpose
+
+This document explains the structure, variables, and interpretation of the GitHub Repository Landscape Analysis.
+
+The repository landscape workflow produces both YAML and Excel outputs, created to support repository portfolio management by:
+
+-   Providing an inventory of all repositories within the GitHub organization
+-   Automatically retrieving repository metadata from the GitHub REST API
+-   Grouping repositories by research theme
+-   Identifying repository activity and maintenance status
+-   Highlighting repositories that may benefit from updates or promotion
+-   Producing reproducible machine-readable outputs (YAML) alongside a human-readable Excel dashboard
+
+The analysis is intended as a decision-support tool rather than an automatic classification system. All recommendations should be reviewed by repository owners before any action is taken.
+
+------------------------------------------------------------------------
+
+# Output Structure
+
+The workflow generates three outputs:
+
+| Output | Purpose |
+|------------------------------------|------------------------------------|
+| `github_repos_raw.yaml` | Complete repository metadata retrieved automatically from the GitHub REST API. This serves as the reproducible source of truth. |
+| `github_repos_overview.yaml` | Aggregated summaries, including repository counts by topic, activity, language, recommendation, and lists of update and promotion candidates. |
+| `github_repo_landscape.xlsx` | Human-readable dashboard containing the full repository inventory together with summary tables for browsing, filtering, colouring, and creating pivot tables. |
+
+The YAML files are intended for automation and version control, whereas the Excel workbook is intended for interactive portfolio management.
+
+------------------------------------------------------------------------
+
+# Repository Metadata
+
+The following fields are retrieved directly from the GitHub API.
+
+## stars
+
+Number of GitHub users who starred the repository.
+
+Interpretation:
+
+-   Higher values may indicate community interest
+-   Particularly useful for public repositories
+-   Less informative for internal repositories
+
+------------------------------------------------------------------------
+
+## watchers
+
+Number of users actively watching repository activity.
+
+Interpretation:
+
+-   Indicates ongoing interest in repository updates
+-   Typically low for research repositories
+
+------------------------------------------------------------------------
+
+## forks
+
+Number of times the repository has been copied ("forked").
+
+Interpretation:
+
+-   Often indicates reuse of the repository
+-   Generally more informative than stars for research software
+
+------------------------------------------------------------------------
+
+## size_kb
+
+Repository size in kilobytes.
+
+Interpretation:
+
+-   Useful for identifying unusually small or unusually large repositories
+-   Not a direct measure of quality
+
+------------------------------------------------------------------------
+
+## default_branch
+
+Default branch of the repository (typically `main` or `master`).
+
+------------------------------------------------------------------------
+
+## has_issues
+
+Whether GitHub Issues are enabled.
+
+Values:
+
+-   TRUE
+-   FALSE
+
+------------------------------------------------------------------------
+
+## has_projects
+
+Whether GitHub Projects are enabled.
+
+Values:
+
+-   TRUE
+-   FALSE
+
+------------------------------------------------------------------------
+
+## has_wiki
+
+Whether a repository wiki is enabled.
+
+Values:
+
+-   TRUE
+-   FALSE
+
+------------------------------------------------------------------------
+
+## has_pages
+
+Whether GitHub Pages is enabled.
+
+Values:
+
+-   TRUE
+-   FALSE
+
+GitHub Pages may indicate the existence of documentation or a project website.
+
+------------------------------------------------------------------------
+
+# Research Topic Classification
+
+Repositories are automatically assigned to broad research themes based on repository names, descriptions, and GitHub topics/tags.
+
+Current themes include:
+
+-   AI & NLP
+-   Social Science & Survey Research
+-   Health & Population Studies
+-   Economics & Public Policy
+-   Official Statistics & Administrative Data
+-   Statistical Methods
+-   Data Engineering & Infrastructure
+-   Visualization & Applications
+-   Geospatial Analysis
+-   Synthetic Data
+-   History & Humanities
+-   Other
+
+Because classification is keyword-based, all topic assignments should be considered preliminary and may require manual review.
+
+------------------------------------------------------------------------
+
+# Activity Status
+
+Repository activity is determined using the most recent push date.
+
+## Active: \<6 months
+
+Repository updated within the last 180 days.
+
+Interpretation:
+
+-   Currently maintained
+-   Potential candidate for promotion
+
+------------------------------------------------------------------------
+
+## Inactive: 6–12 months
+
+Repository updated between 180 and 365 days ago.
+
+Interpretation:
+
+-   Possibly maintained
+-   Review recommended
+
+------------------------------------------------------------------------
+
+## Inactive: 1–2 years
+
+Repository updated between 365 and 730 days ago.
+
+Interpretation:
+
+-   May require maintenance
+-   Check whether repository is still in use
+
+------------------------------------------------------------------------
+
+## Dormant: \>2 years
+
+Repository has not been updated for more than 730 days.
+
+Interpretation:
+
+-   Potential archival candidate
+-   Confirm repository ownership and usage before archiving
+
+------------------------------------------------------------------------
+
+# Repository Indicators
+
+The workflow records several repository indicators directly from GitHub metadata rather than combining them into a single quality score.
+
+These indicators include:
+
+-   Repository description
+-   License availability
+-   Recent activity
+-   GitHub Issues enabled
+-   GitHub Pages enabled
+-   Wiki enabled
+-   Stars
+-   Forks
+
+Keeping these indicators separate makes the assessment more transparent and avoids imposing arbitrary weights through a composite score.
+
+------------------------------------------------------------------------
+
+# Recommendations
+
+Recommendations are automatically generated using repository metadata, activity status, visibility, and indicators such as repository description, licensing, stars, forks, and GitHub Pages.
+
+These recommendations should be interpreted as starting points for discussion rather than automatic decisions.
+
+## Promote
+
+Repository appears actively maintained, publicly available, and demonstrates evidence of reuse or visibility.
+
+Suggested actions:
+
+-   Improve README
+-   Add tutorials or example workflows
+-   Increase visibility through publications or project websites
+
+------------------------------------------------------------------------
+
+## Needs Update
+
+Repository appears potentially valuable but has seen limited recent activity.
+
+Suggested actions:
+
+-   Review documentation
+-   Update dependencies
+-   Verify reproducibility
+-   Confirm continued relevance
+
+------------------------------------------------------------------------
+
+## Maintain
+
+Repository is currently maintained and requires only routine review.
+
+Suggested actions:
+
+-   Continue maintenance
+-   Periodically review documentation and dependencies
+
+------------------------------------------------------------------------
+
+## Legacy / Retain for Record
+
+Repository has not been updated for an extended period but is retained for reproducibility and historical documentation.
+
+Suggested actions:
+
+-   Retain repository
+-   Add notes describing project status where appropriate
+
+------------------------------------------------------------------------
+
+## Manual Review
+
+Repository requires human assessment because automated indicators are insufficient to determine an appropriate recommendation.
+
+------------------------------------------------------------------------
+
+# Important Notes
+
+1.  Topic classifications are keyword-based and may require manual review.
+
+2.  Popularity metrics are more informative for public repositories than for internal repositories.
+
+3.  Repository indicators are presented individually rather than combined into a single quality score to improve transparency.
+
+4.  Recommendations are intended to support portfolio management and should always be reviewed by repository owners.
+
+5.  Research repositories are retained for reproducibility and historical reference; therefore, the workflow does not recommend repository archival.
+
+6.  The YAML outputs provide a reproducible machine-readable representation of the repository landscape, while the Excel workbook provides an interactive dashboard for exploration and reporting.
